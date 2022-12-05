@@ -15,7 +15,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,45 +26,33 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/imRanDan/qr-code-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://imrandan.github.io/qr-code-component-main/)
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
 - TailwindCSS
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+Figuring out a new technology, struggling, and then eventually putting something together was a big win for me. I learned how to use flex, padding, margins, custom elements, and basic setup to get tailwind working for this project.
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="h-screen flex flex-col items-center 
+  justify-center w-1/3 absolute left-1/3 h-64">
 ```
-```css
-.proud-of-this-css {
-  color: papayawhip;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+As this is my first project with TailwindCSS, I found it a bit difficult to figure out what the shortforms meant, so I will need to keep the documentation handy and as I build more projects I will get used to what everything means.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I also found that while I was able to get the project to be responsive horizontally, if I were to work on this more or come back to it later for further optimizations, I would add vertical responsiveness too.
+
+
 
 ### Useful resources
 
@@ -75,14 +62,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Website - [Danyal Imran](https://danyalimran.com/)
+- Frontend Mentor - [@imRanDan](https://www.frontendmentor.io/profile/imRanDan)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+Shoutout Brad Traversy for teaching me TailwindCSS and setting up the project with his TailwindCSS Crash course video on YouTube! Also, shoutout to the TailwindCSS Documentation (I would be lost without you, lol)
